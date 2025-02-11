@@ -1,0 +1,24 @@
+// Assignacions bàsiques
+a := 10                // Enter
+b := 3.14              // Real
+c := "Hola"            // Cadena
+d := true              // Booleà
+
+// Expressions booleanes
+d := a > 5             // Boolean: true, perquè a és més gran que 5
+f := not d             // Boolean: false, negació de d
+h := d or f            // Boolean: true, perquè d=true
+
+// Expressions aritmètiques
+i := a + b             // Real: suma d'un enter i un real
+j := (a * 2) - b       // Real: multiplicació d'enter i resta amb real
+k := c + " món"        // Cadena: concatenació de cadena amb literal
+
+// Casos especials
+l := b / 0             // Error: divisió per zero
+m := k + 123           // Cadena: concatenació de cadena i enter
+n := (a + b) + c       // Cadena: enter i real concatenats amb cadena
+
+// Variables no inicialitzades
+x := y + 2             // Error: y no està inicialitzada
+

@@ -1,0 +1,9 @@
+// Assignacions de constants
+x := pi
+y := e
+
+// Expressions amb constants
+z := pi + e
+a := pi * 2
+b := e**2
+

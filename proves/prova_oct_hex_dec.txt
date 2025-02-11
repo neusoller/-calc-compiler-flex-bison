@@ -1,0 +1,5 @@
+// Assignacions de valors en diferents bases
+x := 0o12    // Octal (esperat: 10 en decimal)
+y := 0b1010  // Binari (esperat: 10 en decimal)
+z := 0xA     // Hexadecimal (esperat: 10 en decimal)
+w := 10      // Decimal (esperat: 10)

@@ -1,0 +1,13 @@
+// Funcions de longitud i subcadena
+s := "Hola món"
+l := LEN(s)                 // Enter: longitud de "Hola món" (8)
+
+sub := SUBSTR(s; 0; 4)      // Cadena: "Hola"
+sub2 := SUBSTR(s; 5; 3)     // Cadena: "món"
+
+// Errors
+e := LEN(123)               // Error: LEN només accepta cadenes
+f := SUBSTR(s; -1; 5)       // Error: inici negatiu no vàlid
+g := SUBSTR(s; 10; 2)       // Error: inici fora dels límits de la cadena
+h := SUBSTR(123; 0; 2)      // Error: SUBSTR només accepta (cadena; enter; enter)
+

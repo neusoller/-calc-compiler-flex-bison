@@ -1,0 +1,10 @@
+// Funcions trigonomètriques bàsiques
+a := 3.14
+b := sin(a)            // Real: sin(3.14)
+c := cos(a)            // Real: cos(3.14)
+d := tan(a)            // Real: tan(3.14)
+
+// Errors semàntics
+e := sin("Hola")       // Error: operació no vàlida per a tipus cadena
+f := cos(true)         // Error: operació no vàlida per a tipus booleà
+
